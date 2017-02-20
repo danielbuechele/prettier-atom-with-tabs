@@ -69,7 +69,7 @@
       "title": "Print Width",
       "description": "Fit code within this line limit",
       "type": "integer",
-      "default": 80,
+      "default": 120,
       "order": 3
     },
     "tabWidth": {
@@ -118,13 +118,6 @@
       ],
       "order": 9
     },
-    "useTabs": {
-      "title": "Use Tabs",
-      "description": "Use tabs for indentation",
-      "type": "boolean",
-      "default": true,
-      "order": 10
-    },
     "formatOnSaveScopes": {
       "title": "Format-on-Save Scopes",
       "description": "List of scopes for which Pretter will automatically format on save. Note: 'Format on Save' must be enabled for this to have effect. Use `Editor: Log Cursor Scope` to determine the scopes for a file.",
@@ -142,6 +135,13 @@
         "type": "string"
       },
       "order": 10
+    },
+    "useTabs": {
+      "title": "Use Tabs",
+      "description": "Use tabs for indentation",
+      "type": "boolean",
+      "default": true,
+      "order": 11
     }
   }
 }
